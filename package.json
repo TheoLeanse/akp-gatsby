@@ -6,7 +6,9 @@
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
+    "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.11",
+    "netlify-cms": "^1.9.3",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
