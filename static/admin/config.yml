@@ -23,8 +23,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Gallery"
+          - label: "images"
             name: "galleryImages"
             widget: "list"
-            field:
+            fields:
               - {label: Image, name: image, widget: image}
+              - {label: Description, name: desc, widget: string}
