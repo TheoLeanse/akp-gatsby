@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'AKP',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/src/pages/home`,
         name: 'pages',
       },
     },
