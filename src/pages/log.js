@@ -1,19 +1,17 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-const SecondPage = ({ data }) => {
-  console.log(data)
+const Log = ({ data }) => {
   const { edges: images } = data.allFile
   return (
     <div>{images.map(({ node: image }) => <img src={image.publicURL} />)}</div>
   )
 }
 
-export default SecondPage
+export default Log
 
 export const pageQuery = graphql`
-  query foo {
-    allFile {
+  query Log {
+    allFile(filter: { extension: { eq: "jpg" } }) {
       edges {
         node {
           publicURL
