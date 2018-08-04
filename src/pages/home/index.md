@@ -2,8 +2,9 @@
 templateKey: home-page
 title: Home
 galleryImages:
-  - desc: ' '
+  - desc: ' Dragon'
     image: /img/img_0821.jpg
+  - {}
 ---
 
 ### AKP
