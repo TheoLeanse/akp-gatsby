@@ -11,7 +11,7 @@ export default Log
 
 export const pageQuery = graphql`
   query Log {
-    allFile {
+    allFile(filter: { extension: { eq: "jpg" } }) {
       edges {
         node {
           publicURL
